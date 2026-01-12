@@ -1,0 +1,89 @@
+// Bmobile Prebuilt Apps
+
+android_app_import {
+    name: "AmbientMusic",
+    apk: "amusic/Ambient-Music-v3.3.2.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+android_app_import {
+    name: "CalculatorYou",
+    apk: "calculator/CalculatorYou-v3.1.2.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+android_app_import {
+    name: "FossifyContacts",
+    apk: "contacts/org.fossify.contacts_9.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+android_app_import {
+    name: "Digipaws",
+    apk: "digipaws/nethical.digipaws_23.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+android_app_import {
+    name: "Launchpad",
+    apk: "launchpad/com.devrinth.launchpad_764.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+android_app_import {
+    name: "PhotoWidget",
+    apk: "photo/com.fibelatti.photowidget-v1.32.3-1320300-release.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+android_app_import {
+    name: "SpeakThat",
+    apk: "speakthat/SpeakThat.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+android_app_import {
+    name: "SystemAthena",
+    apk: "systemAthena/athena.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
