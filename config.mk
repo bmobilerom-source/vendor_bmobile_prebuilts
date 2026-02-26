@@ -7,8 +7,12 @@ PRODUCT_PACKAGES += \
     AmbientMusic \
     CalculatorYou \
     FossifyContacts \
-    Digipaws \
-    Launchpad \
     PhotoWidget \
     SpeakThat \
-    SystemAthena
+    SystemAthena \
+    Zenith \
+    Braincup \
+    FMD \
+    Sunup \
+    LocalNLPBackend
+#    Reef \

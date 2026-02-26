@@ -1,0 +1,7 @@
+Local NLP Backend (helium314.localbackend) v1.2.15 (F-Droid versionCode 43)
+F-Droid: https://f-droid.org/en/packages/helium314.localbackend/
+APK: https://f-droid.org/repo/helium314.localbackend_43.apk
+License: GPLv3
+
+Offline / local UnifiedNlp-style location backend for microG network location.
+No native libraries; safe for presigned + preprocessed.

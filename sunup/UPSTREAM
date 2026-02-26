@@ -1,0 +1,7 @@
+Sunup (org.unifiedpush.distributor.sunup) v1.3.2 (F-Droid versionCode 22)
+F-Droid: https://f-droid.org/en/packages/org.unifiedpush.distributor.sunup/
+APK: https://f-droid.org/repo/org.unifiedpush.distributor.sunup_22.apk
+License: GPLv3
+
+UnifiedPush distributor. Includes arm64-v8a (and other ABIs); JNI libs are stored
+uncompressed so Soong can use presigned + preprocessed.

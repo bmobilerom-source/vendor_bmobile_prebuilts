@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Runtime grants for Local NLP Backend so microG (or the user) can enable it
+  without a permission gauntlet. Offline RF database still needs GPS learning
+  or an imported cell/Wi‑Fi DB before it returns fixes.
+-->
+<exceptions>
+    <exception package="helium314.localbackend">
+        <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="false" whitelisted="true"/>
+        <permission name="android.permission.ACCESS_WIFI_STATE" fixed="false"/>
+        <permission name="android.permission.CHANGE_WIFI_STATE" fixed="false"/>
+        <permission name="android.permission.FOREGROUND_SERVICE" fixed="false"/>
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+    </exception>
+</exceptions>

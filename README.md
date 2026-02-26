@@ -23,6 +23,7 @@ vendor_bmobile_prebuilts/
 ├── photo/             # Photo Widget app
 ├── speakthat/         # SpeakThat app
 └── systemAthena/      # System Athena app
+└── zenith/            # Zenith app
 ```
 
 ## 📚 Documentation
@@ -46,6 +47,7 @@ vendor_bmobile_prebuilts/
 | Photo Widget | v1.32.3 | Multimedia | Photo display widget |
 | SpeakThat | N/A | Utilities | Text-to-speech utility |
 | System Athena | N/A | System | System information tool |
+| Zenith | v1.5.2 | Wellness | App shielding / mindful usage ([upstream](https://github.com/1372Slash/Zenith)) |
 
 ## 🔧 Build Integration
 

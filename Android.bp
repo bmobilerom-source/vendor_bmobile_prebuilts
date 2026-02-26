@@ -2,7 +2,7 @@
 
 android_app_import {
     name: "AmbientMusic",
-    apk: "amusic/Ambient-Music-v3.3.2.apk",
+    apk: "amusic/Ambient-Music-v5.0.2.apk",
     presigned: true,
     preprocessed: true,
     dex_preopt: {
@@ -26,33 +26,12 @@ android_app_import {
 
 android_app_import {
     name: "FossifyContacts",
-    apk: "contacts/org.fossify.contacts_9.apk",
+    apk: "contacts/org.fossify.contacts_latest.apk",
     presigned: true,
     preprocessed: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    product_specific: true,
-    privileged: false,
-}
-
-android_app_import {
-    name: "Digipaws",
-    apk: "digipaws/nethical.digipaws_23.apk",
-    presigned: true,
-    preprocessed: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    product_specific: true,
-    privileged: false,
-}
-
-android_app_import {
-    name: "Launchpad",
-    apk: "launchpad/com.devrinth.launchpad_764.apk",
-    presigned: true,
-    preprocessed: true,
+    overrides: [
+        "Contacts",
+    ],
     dex_preopt: {
         enabled: false,
     },
@@ -62,7 +41,7 @@ android_app_import {
 
 android_app_import {
     name: "PhotoWidget",
-    apk: "photo/com.fibelatti.photowidget-v1.32.3-1320300-release.apk",
+    apk: "photo/com.fibelatti.photowidget-v1.44.3-1440300-release.apk",
     presigned: true,
     preprocessed: true,
     dex_preopt: {
@@ -94,4 +73,81 @@ android_app_import {
     },
     product_specific: true,
     privileged: false,
+}
+
+// Zenith — digital wellbeing / app shielding (GPLv3)
+// https://github.com/1372Slash/Zenith/releases
+android_app_import {
+    name: "Zenith",
+    apk: "zenith/Zenith-full-1.5.8.apk",
+    presigned: true,
+    preprocessed: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+android_app_import {
+    name: "Braincup",
+    apk: "braincup/com.inspiredandroid.braincup_latest.apk",
+    presigned: true,
+    preprocessed: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+android_app_import {
+    name: "FMD",
+    apk: "fmd/de.nulide.findmydevice_latest.apk",
+    presigned: true,
+    preprocessed: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+// Sunup — UnifiedPush distributor (GPLv3)
+// https://f-droid.org/en/packages/org.unifiedpush.distributor.sunup/
+android_app_import {
+    name: "Sunup",
+    apk: "sunup/org.unifiedpush.distributor.sunup_22.apk",
+    presigned: true,
+    preprocessed: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+// Local NLP Backend — optional offline RF location module for microG (GPLv3)
+// https://f-droid.org/en/packages/helium314.localbackend/
+// Note: GmsCore 0.3.x primarily uses built-in MLS (see /system/etc/microg.xml).
+prebuilt_etc {
+    name: "default-permissions-helium314.localbackend.xml",
+    src: "localbackend/default-permissions-helium314.localbackend.xml",
+    sub_dir: "default-permissions",
+    product_specific: true,
+}
+
+android_app_import {
+    name: "LocalNLPBackend",
+    apk: "localbackend/helium314.localbackend_43.apk",
+    privileged: false,
+    presigned: true,
+    preprocessed: true,
+    required: [
+        "default-permissions-helium314.localbackend.xml",
+    ],
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
 }
