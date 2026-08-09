@@ -19,5 +19,6 @@ PRODUCT_PACKAGES += \
     Braincup \
     FMD \
     Sunup \
-    LocalNLPBackend
+    LocalNLPBackend \
+    Snes9xEXPlus
 #    Reef \

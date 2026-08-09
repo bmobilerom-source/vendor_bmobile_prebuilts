@@ -152,6 +152,20 @@ android_app_import {
     product_specific: true,
 }
 
+// Snes9x EX+ — SNES emulator (GPLv3 frontend; SNES9x core non-commercial)
+// https://github.com/Rakashazi/emu-ex-plus-alpha/releases
+// Platform-signed so Soong can uncompress JNI (upstream APK has compressed .so).
+android_app_import {
+    name: "Snes9xEXPlus",
+    apk: "snes9x/Snes9xEXPlus.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
 // DigiPaws — simpler KidsSafe digital wellness / screen-time (v2.3-alpha-lite)
 // Package: nethical.digipaws — APK retained after Reef was unpackaged (CE prefs RescueParty).
 // Upstream digipaws discontinued → Curbox; keep v23 for young-user UX simplicity.
