@@ -19,7 +19,8 @@
 
 ### 🔧 System Tools
 - [System Athena](System-Athena.md)
-- [Digipaws](Digipaws.md)
+- [Digipaws](Digipaws.md) — KidsSafe wellness
+- [Reef](Reef.md) — unpackaged
 
 ### 🛠️ Utilities
 - [Launchpad](Launchpad.md)

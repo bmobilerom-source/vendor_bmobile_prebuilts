@@ -18,7 +18,8 @@ vendor_bmobile_prebuilts/
 ├── amusic/            # Ambient Music app
 ├── calculator/        # CalculatorYou app
 ├── contacts/          # Fossify Contacts app
-├── digipaws/          # Digipaws app
+├── digipaws/          # DigiPaws KidsSafe wellness (in PRODUCT_PACKAGES)
+├── reef/              # Reef (APK retained; NOT in PRODUCT_PACKAGES — CE RescueParty)
 ├── launchpad/         # Launchpad app
 ├── photo/             # Photo Widget app
 ├── speakthat/         # SpeakThat app
@@ -42,7 +43,8 @@ vendor_bmobile_prebuilts/
 | Ambient Music | v3.3.2 | Multimedia | Ambient music player |
 | CalculatorYou | v3.1.2 | Utilities | Advanced calculator |
 | Fossify Contacts | v9 | Productivity | Privacy-focused contacts manager |
-| Digipaws | v23 | Wellness | Digital wellness & parental control |
+| Digipaws | v23 | Wellness | KidsSafe screen time / wellness (simpler than Zenith) |
+| Reef | v4.3.0 | Wellness | Unpackaged — CE prefs RescueParty; APK retained |
 | Launchpad | v764 | Utilities | App launcher |
 | Photo Widget | v1.32.3 | Multimedia | Photo display widget |
 | SpeakThat | N/A | Utilities | Text-to-speech utility |
@@ -76,6 +78,7 @@ PRODUCT_PACKAGES += \
     PhotoWidget \
     SpeakThat \
     SystemAthena
+# Reef unpackaged — see wiki/Reef.md
 ```
 
 ## 🚀 Build Commands

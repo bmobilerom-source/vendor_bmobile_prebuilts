@@ -151,3 +151,34 @@ android_app_import {
     },
     product_specific: true,
 }
+
+// DigiPaws — simpler KidsSafe digital wellness / screen-time (v2.3-alpha-lite)
+// Package: nethical.digipaws — APK retained after Reef was unpackaged (CE prefs RescueParty).
+// Upstream digipaws discontinued → Curbox; keep v23 for young-user UX simplicity.
+// SHA256: d3ec35d3a05fa51635698937e134e801e5d06b33d5b18f7245c9c6d46abe806b
+android_app_import {
+    name: "Digipaws",
+    apk: "digipaws/nethical.digipaws_23.apk",
+    presigned: true,
+    preprocessed: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}
+
+// Reef — screen time / focus / routines (MIT) — NOT in PRODUCT_PACKAGES
+// https://github.com/aload0/Reef/releases/tag/v4.3.0
+// SHA256: 7a075dfbafcda73532875bfee1e0b07b30252d8910a0b5f0048b791a16a4e12e
+android_app_import {
+    name: "Reef",
+    apk: "reef/Reef-release-4.3.0.apk",
+    presigned: true,
+    preprocessed: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    privileged: false,
+}

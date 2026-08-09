@@ -9,7 +9,8 @@ Welcome to the Bmobile Prebuilt Apps documentation. This wiki contains informati
 | [Ambient Music](Ambient-Music.md) | v3.3.2 | Multimedia | Ambient music player |
 | [CalculatorYou](CalculatorYou.md) | v3.1.2 | Utilities | Advanced calculator |
 | [Fossify Contacts](Fossify-Contacts.md) | v9 | Productivity | Privacy-focused contacts manager |
-| [Digipaws](Digipaws.md) | v23 | Wellness | Digital wellness & parental control |
+| [Digipaws](Digipaws.md) | v23 | Wellness | KidsSafe screen time / wellness (active) |
+| [Reef](Reef.md) | v4.3.0 | Wellness | Unpackaged — CE RescueParty; APK retained |
 | [Launchpad](Launchpad.md) | v764 | Utilities | App launcher |
 | [Photo Widget](Photo-Widget.md) | v1.32.3 | Multimedia | Photo display widget |
 | [SpeakThat](SpeakThat.md) | N/A | Utilities | Text-to-speech utility |
@@ -33,7 +34,8 @@ Welcome to the Bmobile Prebuilt Apps documentation. This wiki contains informati
 
 ### System Apps
 - [System Athena](System-Athena.md) - System diagnostics
-- [Digipaws](Digipaws.md) - Digital wellness monitoring
+- [Digipaws](Digipaws.md) - KidsSafe screen time / wellness (**in PRODUCT_PACKAGES**)
+- [Reef](Reef.md) - Unpackaged (CE prefs RescueParty); APK retained
 
 ### Utility Apps
 - [Launchpad](Launchpad.md) - App launcher

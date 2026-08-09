@@ -35,6 +35,7 @@ PRODUCT_PACKAGES += \
     PhotoWidget \
     SpeakThat \
     SystemAthena
+# Reef unpackaged — CE RescueParty
 ```
 
 ## Directory Structure
